@@ -1,0 +1,11 @@
+                             supervised                                  unsupervised 
+Evaluation Metrics	Accuracy, F1-score, RMSE	Silhouette score, Inertia, Davies–Bouldin
+
+clustering (DBSCAN or Gaussian Mixture Models)
+{Not convex — solution depends on initialization
+
+May converge to local minima
+
+K needs to be chosen beforehand (elbow method or silhouette score can help)}
+
+backpropagation and gradient descent to minimize the loss by updating
