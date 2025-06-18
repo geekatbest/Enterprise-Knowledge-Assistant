@@ -1,11 +1,27 @@
-                             supervised                                  unsupervised 
-Evaluation Metrics	Accuracy, F1-score, RMSE	Silhouette score, Inertia, Davies–Bouldin
+Long ago, in a kingdom nestled between mountains and rivers, there lived a proud but just king named Arvel. His city, Eloria, was the envy of every traveler — golden domes, bustling markets, and gardens where birds sang even in winter.
 
-clustering (DBSCAN or Gaussian Mixture Models)
-{Not convex — solution depends on initialization
+King Arvel ruled with strength, but over time, pride began to overshadow his wisdom. He surrounded himself with flatterers who praised his every word and silenced those who dared to speak truth.
 
-May converge to local minima
+One day, a mysterious monk arrived from the East. He brought a gift — a large bronze bell, intricately carved with ancient symbols.
 
-K needs to be chosen beforehand (elbow method or silhouette score can help)}
+"This is the Bell of Truth," the monk said, placing it in the palace courtyard. "It rings only when a truly wise and humble ruler speaks."
 
-backpropagation and gradient descent to minimize the loss by updating
+Intrigued, the king spoke before the bell. He declared his greatness, his victories, his unbroken line of ancestors — but the bell remained still and silent.
+
+Offended, King Arvel had his guards try. Ministers, generals, even priests — all spoke before the bell. None could make it ring.
+
+Humiliated but curious, the king summoned the monk again. "Why does your bell not ring?" he demanded.
+
+The monk replied gently, "Truth does not echo in prideful halls, Your Majesty."
+
+That night, for the first time in years, King Arvel wandered alone through the streets of Eloria. He listened to the laughter of children, the worries of farmers, the quiet prayers of the sick. He saw not a kingdom of glory, but of people — flawed, tired, hopeful.
+
+The next morning, he stood before the bell again. He said nothing of his power. Instead, he spoke of his mistakes — how pride had made him blind, how he wished to change.
+
+A clear, deep chime rang through the courtyard.
+
+The bell had spoken.
+
+From that day forward, King Arvel ruled not from a throne of gold, but from a place of listening. His kingdom prospered like never before — not through fear, but through wisdom.
+
+And the bell never stayed silent again.

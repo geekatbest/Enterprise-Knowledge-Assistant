@@ -1,18 +1,13 @@
+from langchain_groq import ChatGroq
+from langchain_core.language_models.chat_models import BaseChatModel
 import os
 from dotenv import load_dotenv
-from langchain.chat_models import ChatOpenAI
 
 load_dotenv()
 
-def get_llm():
-    model_name = os.getenv("LLM_MODEL", "gpt-3.5-turbo")
-    api_key = os.getenv("OPENAI_API_KEY")
-
-    if not api_key:
-        raise ValueError("OPENAI_API_KEY not found in environment.")
-
-    return ChatOpenAI(
-        temperature=0.0,
-        model_name=model_name,
-        openai_api_key=api_key
+def get_llm() -> BaseChatModel:
+    return ChatGroq(
+        model="llama3-70b-8192",
+        api_key=os.getenv("GROQ_API_KEY"),
+        temperature=0.2,
     )
