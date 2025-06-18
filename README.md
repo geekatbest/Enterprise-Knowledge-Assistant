@@ -6,6 +6,12 @@ A smart, domain-aware chatbot that retrieves and summarizes enterprise knowledge
 
 ---
 
+## 🖼 Demo Preview
+
+<div align="center">
+  <img src="assets/demo.webm" alt="Demo" width="400">
+</div>
+
 ## 📌 Features
 
 - 🗂️ **Document Ingestion**: Supports PDF, TXT files for enterprise knowledge bases.
